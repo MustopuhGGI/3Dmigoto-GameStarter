@@ -278,16 +278,8 @@ int main()
     PCWSTR pszLibFile = (PCWSTR)wptr;
 
     // Do not uncomment these code if you don't need inject dll into game.
-    //printf("C:\\Users\\Administrator\\Desktop\\HSR_GIMI6.0_Loader\\d3d11.dll\n");
-    //printf("loaded: ");
-    //printf(module_path);
-    //printf("\n");
     //DWORD dwProcessId = pi.dwProcessId;
     // demoCreateRemoteThreadW(pszLibFile, dwProcessId);
-
-
-
-
 
 
     printf("Target program run succes.\n");

@@ -143,7 +143,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\DLLhijacking\StrUtil.cpp" />
     <ClCompile Include="GameStarter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DLLhijacking\FreeUtil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
